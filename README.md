@@ -32,3 +32,6 @@ git submodule init
 git submodule update
 forever --spinSleepTime 300000 -c python pokecli.py -u <username> -p <password> -l <location> -lc -w <speed> -k  <google_map_key>
 ```
+
+# deployement
+https://www.chef.io/chef/? docker ?
