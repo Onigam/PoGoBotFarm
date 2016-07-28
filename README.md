@@ -10,6 +10,12 @@ Pwd generation:
 
 Commande de lancement du bot: `forever --spinSleepTime 300000 -c python pokecli.py -u <username> -p <password> -l <location> -lc -w <speed> -k  <google_map_key>`
 
+# script
+```
+sh ./install.sh -u=<username> -p=<password> -l=<location>
+```
+
+
 # environnement
 ```
 apt-get update
