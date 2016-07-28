@@ -12,7 +12,7 @@ Commande de lancement du bot: `forever --spinSleepTime 300000 -c python pokecli.
 
 # script
 ```
-sh ./install.sh -u=<username> -p=<password> -l=<location>
+sh ./start-bot.sh -u=<username> -p=<password> -l=<location>
 ```
 
 
