@@ -1,8 +1,12 @@
 # PoGoBotFarm
 
+Emulateur pour le monitoring:
+http://www.bluestacks.com/fr/index.html?__dlrd=1
+
 To check the service: [http://ispokemongodownornot.com/](http://ispokemongodownornot.com/)
 
 Login generation:
+http://www.namegenerator.biz/game-name-generator.php
 [http://www.gunof.net/](http://www.gunof.net/)
 
 Pwd generation:
@@ -13,6 +17,8 @@ Commande de lancement du bot: `forever --spinSleepTime 300000 -c python pokecli.
 # script
 ```
 sh ./start-bot.sh -u=<username> -p=<password> -l=<location>
+or
+sh ./start-all-bot.sh
 ```
 
 
