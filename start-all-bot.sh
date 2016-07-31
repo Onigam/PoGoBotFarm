@@ -4,6 +4,8 @@
 rm -Rf PokemonGo-Bot
 git clone --recursive -b master https://github.com/Onigam/PokemonGo-Bot PokemonGo-Bot
 cd PokemonGo-Bot
+virtualenv .
+source bin/activate
 pip install -r requirements.txt
 mv release_config.json.example release_config.json
 mkdir logs
