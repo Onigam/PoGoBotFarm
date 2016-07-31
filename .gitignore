@@ -1,5 +1,5 @@
-# Maven
-target
+# Mac
+.DS_Store
 
 # IntelliJ IDEA
 .idea
@@ -13,20 +13,6 @@ target
 #NetBeans
 /nbproject/
 
-# Bower
-src/main/resources/public/libraries
-
-# Grunt
-src/main/resources/public/build
-node_modules
-.tmp
-
-# PhantomJS
-*.log
-
-# Sass
-*.css
-*.map
-
 # Bots
 /PokemonGo-Bot*
+/PokemonGo-Bot/*.*
