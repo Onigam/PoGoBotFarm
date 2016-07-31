@@ -15,5 +15,5 @@ do
         PASSWORD=$(echo "$line" | cut -d';' -f2)    # get the password
         LOCATION=$(echo "$line" | cut -d';' -f3)    # get the location
         echo "$USERNAME $PASSWORD $LOCATION"
-        ../start-bot.sh -u=$USERNAME -p=$PASSWORD -l=$LOCATION
+        source ../start-bot.sh -u=$USERNAME -p=$PASSWORD -l=$LOCATION
 done
