@@ -17,3 +17,5 @@ do
         echo "$USERNAME $PASSWORD $LOCATION"
         source ../start-bot.sh -u=$USERNAME -p=$PASSWORD -l=$LOCATION
 done
+
+cd ..
