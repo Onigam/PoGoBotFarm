@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./stop-all-bot.sh
+source ./stop-all-bot.sh
 rm -Rf PokemonGo-Bot
 git clone --recursive -b master https://github.com/Onigam/PokemonGo-Bot PokemonGo-Bot
 cd PokemonGo-Bot
