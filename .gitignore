@@ -1,0 +1,18 @@
+# Mac
+.DS_Store
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings
+
+#NetBeans
+/nbproject/
+
+# Bots
+/PokemonGo-Bot*
+/PokemonGo-Bot/*.*
