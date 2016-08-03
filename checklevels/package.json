@@ -1,0 +1,11 @@
+{
+  "name": "checklevels",
+  "version": "1.0.0",
+  "description": "checks all logs for profile levels",
+  "main": "index.js",
+  "author": "mgraf",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "1.8.3"
+  }
+}

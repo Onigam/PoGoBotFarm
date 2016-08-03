@@ -13,6 +13,9 @@
 #NetBeans
 /nbproject/
 
+# Node
+node_modules
+
 # Bots
 /PokemonGo-Bot*
 /PokemonGo-Bot/*.*
