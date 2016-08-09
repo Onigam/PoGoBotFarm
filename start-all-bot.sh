@@ -2,7 +2,7 @@
 
 source ./stop-all-bot.sh
 rm -Rf PokemonGo-Bot
-git clone --recursive -b master https://github.com/PokemonGoF/PokemonGo-Bot.git PokemonGo-Bot
+git clone --recursive -b dev https://github.com/PokemonGoF/PokemonGo-Bot.git PokemonGo-Bot
 cd PokemonGo-Bot
 mkvirtualenv PokeBotPyEnv
 pip install -r requirements.txt
