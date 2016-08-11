@@ -25,7 +25,10 @@ echo USER = ${USER}
 echo PASSWORD = ${PASSWORD}
 echo LOCATION = ${LOCATION}
 
-touch config-${USER}.json
-echo "{\"walk\": 8,\"auth_service\":\"ptc\", \"username\":\"${USER}\", \"password\":\"${PASSWORD}\", \"location\":\"${LOCATION}\", \"gmapkey\":\"AIzaSyAM63b9XvA6TeyrSTji5rWBLE_6eJxZgwU\", \"max_steps\":5, \"test\": false, \"initial_transfer\": 0, \"location_cache\": true, \"distance_unit\": \"km\", \"item_filter\": \"101,102,103,104\",\"evolve_all\": \"all\"}" > config-${USER}.json
-nohup forever --spinSleepTime 10000 --minUptime 9999999999999999999 -c python pokecli.py --config config-${USER}.json > logs/log-${USER}.log 2>&1&
+cp ../config.json config-${USER}.json
+sed -i 's/AUTH_SERVICE/ptc/g' config-${USER}.json
+sed -i 's/ACCOUNT/${USER}/g' config-${USER}.json
+sed -i 's/PWD/${PASSWORD}/g' config-${USER}.json
+sed -i 's/ACCOUNT/${LOCATION}/g' config-${USER}.json
+sed -i 's/GMAPKEY/AIzaSyAM63b9XvA6TeyrSTji5rWBLE_6eJxZgwU/g' config-${USER}.json
 echo Bot ${USER} Started
