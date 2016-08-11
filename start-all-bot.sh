@@ -5,7 +5,7 @@ rm -Rf PokemonGo-Bot
 git clone --recursive https://github.com/PokemonGoF/PokemonGo-Bot.git PokemonGo-Bot
 cd PokemonGo-Bot
 mkvirtualenv PokeBotPyEnv
-pip install -r requirements.txt
+pip install -r requirements.txt --no-binary greenlet
 mv release_config.json.example release_config.json
 mkdir logs
 
