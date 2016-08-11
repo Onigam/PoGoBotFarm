@@ -9,6 +9,7 @@ tar -xf pgoencrypt.tar.gz
 cd pgoencrypt/src
 make
 cp libencrypt.so ../../encrypt.so
+cd ../..
 mkvirtualenv PokeBotPyEnv
 pip install -r requirements.txt --no-binary greenlet
 mv release_config.json.example release_config.json
